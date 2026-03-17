@@ -31,7 +31,7 @@ namespace IS110OBLIG1
             // while - Holder programmet i gang helt bruker trykker 0.
             while (kjorer)
             {
-                Console.WriteLine("=== UNIVERSITETSSYSTEM ===");
+                Console.WriteLine(" UNI-SYSTEM OBLIG 1");
                 Console.WriteLine("[1] Opprett kurs");
                 Console.WriteLine("[2] Meld student på kurs");
                 Console.WriteLine("[3] Vis alle kurs");

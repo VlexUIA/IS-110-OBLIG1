@@ -4,6 +4,8 @@ namespace IS110OBLIG1
     {
         
         // Informerer oss om kurs koden, navnet, SP og max plasser / Altså beskriver hva et kurs er
+        // get = du kan lese verdien
+        // set = du kan endre verdien
         public string Kode { get; set; } // Kurskode, eksempel: IS110
         public string Navn { get; set; } // Navn på kurset
         public double Studiepoeng { get; set; } // Studiepoeng fra kurset

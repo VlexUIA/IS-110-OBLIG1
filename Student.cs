@@ -2,7 +2,8 @@ namespace IS110OBLIG1
 {
     class Student
     {
-        // Egenskaper med get/set
+        // get = kan lese verdier
+        // set = kan endre verdier
         public string StudentId { get; set; }
         public string Navn { get; set; }
         public string Epost { get; set; }

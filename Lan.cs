@@ -3,6 +3,8 @@ namespace IS110OBLIG1
     class Lan
     {
         // Egenskaper som beskriver hva et Lån er.
+        // get = kan lese verdier
+        // set = kan endre verdier
         public string LanId { get; set; }
         public string BrukerNavn { get; set; }
         public string BokTittel { get; set; }

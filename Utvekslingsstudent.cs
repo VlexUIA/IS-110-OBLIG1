@@ -3,6 +3,9 @@ namespace IS110OBLIG1
     // Arver fra Student - får med seg alt Student har
     class Utvekslingsstudent : Student
     {
+    
+    // get = kan lese verdier
+    // set = kan endre verdier
         public string Hjemuniversitet { get; set; }
         public string Land { get; set; }
         public string Periode { get; set; }

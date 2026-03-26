@@ -2,6 +2,8 @@ namespace IS110OBLIG1
 {
     class Ansatt
     {
+        // get = du kan lese verdien
+        // set = du kan endre verdien
         // Informerer oss om Ansatt - ID, Navn og stilling. 
         public string AnsattId { get; set; }
         public string Navn { get; set; }

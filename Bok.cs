@@ -3,6 +3,8 @@ namespace IS110OBLIG1
     class Bok
     {
         // Informerer oss om ID, Tittel, Forfatter, AntallEksempler og om den er utlånt. 
+        // get = du kan lese verdien
+        // set = du kan endre verdien
         public string Id { get; set; }
         public string Tittel { get; set; }
         public string Forfatter { get; set; }

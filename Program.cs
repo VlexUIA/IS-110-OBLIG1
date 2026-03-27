@@ -237,6 +237,8 @@ namespace IS110OBLIG1
             Console.Write("Antall eksemplarer: ");
             int antall = int.Parse(Console.ReadLine() ?? "0");
 
+            // BRUK if.tryparse isteden for vanlig tryparse.
+
             bokliste.Add(new Bok(id, tittel, forfatter, antall));
             Console.WriteLine("Bok registrert!");
             
